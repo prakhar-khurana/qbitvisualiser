@@ -12,7 +12,7 @@ root = tkinter.Tk()
 root.title("Quantum eyes")
 #set the icon
 try:
-    icon = PhotoImage(file='png')  # Change to .png if needed
+    icon = PhotoImage(file='./icon.png')  # Change to .png if needed
     root.iconphoto(True, icon)
 
 except Exception as e:
